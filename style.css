@@ -1,0 +1,39 @@
+*{
+    margin:10px 0;
+    padding: 0;
+}
+body{
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    margin: 5px 0 0;
+    background-color: white;
+}
+nav img{
+    width: 50px;
+    margin: auto 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 5px;
+}
+nav ul a{
+    padding: 0px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+}
+nav ul a:hover{
+    color: rgb(233, 152, 1);
+}
+.banner{
+    width: 100%;
+}
