@@ -55,3 +55,36 @@ nav ul a:hover{
     background-repeat: no-repeat;
     margin: 0px;
 }
+#Welcome{
+    background-image: url(Img/Fundoinício.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    height: 100vh;
+}
+#Welcome div{
+    display: flex;
+    position: absolute;
+    margin: 10% 15%;
+}
+#Welcome img{
+    width: 400px;
+    margin-right: 70px;
+}
+#Welcome h1{
+    font-family: "Inter", sans-serif;
+    font-size: xx-large;
+    font-weight: 400;
+    color: white;
+}
+#Welcome section{
+    margin: 100px 0;
+}
+#Welcome b{
+    font-weight: bolder;
+}
+#Welcome p{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
