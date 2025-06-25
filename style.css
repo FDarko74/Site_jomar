@@ -1,29 +1,40 @@
 *{
-    margin:10px 0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
-    
+#Home{
+    background-image: url(Img/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0 auto;
+    height: 100vh;
+    align-content: center;
 }
+#Home section{
+    margin: auto 200px auto 100px;
+}
+ #Home section img{
+    width: 600px;
+ }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
-    margin: 5px 0 0;
     background-color: white;
+    padding: 5px 70px;
 }
 nav img{
     width: 50px;
-    margin: auto 30px;
 }
 nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    margin: 0 5px;
 }
 nav ul a{
     padding: 0px 20px;
@@ -36,4 +47,11 @@ nav ul a:hover{
 }
 .banner{
     width: 100%;
+    margin: 0;
+}
+#location{
+    display: flex;
+    background-image: url(Img/banner3.png);
+    background-repeat: no-repeat;
+    margin: 0px;
 }
