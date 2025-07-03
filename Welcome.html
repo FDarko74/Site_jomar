@@ -17,15 +17,23 @@
             <p>Clique na barra abaixo e procure por sua cidade. </br>
                 Assim você verá os planos feitos para você!</p>
             <form>
-                <select>
-                    <option>Barreirinha</option>
-                    <option>Caburi</option>
-                    <option>Mocambo</option>
-                    <option>Parintins</option>
-                    <option>Vila Amazônia</option>
-                    <option>Zé Açu</option>
+                <select id="paginas" onchange="window.location.src=this.value">
+                    <option value="">Escolha uma cidade</option>
+                    <option value="Cidades/Barreirinha.html">Barreirinha</option>
+                    <option value="Cidades/Mocambo.html">Mocambo</option>
+                    <option value="Cidades/Parintins.html">Parintins</option>
+                    <option value="Cidades/VilaAmazonia.html">Vila Amazônia</option>
+                    <option value="Cidades/Caburi.html">Caburi</option>
+                    <option value="Cidades/ZeAcu.html">Zé Açu</option>
                 </select>
             </form>
+            <script>
+            document.getElementById("paginas").addEventListener("change", function () {
+                if (this.value) {
+                window.location.href = this.value;
+                }
+             });
+            </script>
     </section>
     </div>
 </body>

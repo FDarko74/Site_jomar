@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 #Home{
     background-image: url(Img/banner1.png);
@@ -44,16 +45,26 @@ nav ul a{
 }
 nav ul a:hover{
     color: rgb(233, 152, 1);
+    .banner{
+        width: 100%;
+        margin: 0;
+    }
 }
-.banner{
-    width: 100%;
-    margin: 0;
-}
-#location{
+#Planos{
     display: flex;
-    background-image: url(Img/banner3.png);
-    background-repeat: no-repeat;
-    margin: 0px;
+}
+#titulo{
+    margin: 10px 50% 57px;
+    font-weight: lighter;
+    color: #CD5505;
+}
+.residencial section{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+}
+.residencial img{
+    width: 10px;
 }
 #Welcome{
     background-image: url(Img/Fundoinício.png);
