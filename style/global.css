@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: "Inter", sans-serif;
+
+    /* NAVEGADO */
+    --nav-color: #388153;
+    --nav-hover-color: #FF6600;
+    --h1-color: #CD5505;
+    --h1-font: lighter 35px/200% "Inter", sans-serif;
+
+    /* HOMEPAGE */
+    --text-home: white;
+    --font-h1: normal 2.37rem "Inter", sans-serif;
+    --font-h2: lighter 1.5rem "Inter", sans-serif;
+
+    /* PLANOS */
+        /* residencial */
+    --background-pl: #EEEEEE;
+    --background-h3: linear-gradient(99deg, #B34B06, #FF6A00);
+    --font-h3: lighter 2.5rem "Inter", sans-serif;
+    --font-pl: lighter 1.35rem "Inter", sans-serif;
+    --icon-color: #FF6A00;
+    --botao-color: linear-gradient(99deg, #B34B06, #FF6A00);
+    --botao-color2: white;
+
+        /* empresarial */
+    --background-ple: #EEEEEE;
+    --background-h3e: linear-gradient(99deg, #00E35B, #387852);
+    --font-h3e: lighter 2.5rem "Inter", sans-serif;
+    --font-ple: lighter 1.25rem "Inter", sans-serif;
+    --icon-colore: #07E25B;
+    --botao-colore: linear-gradient(99deg, #00E35B, #387852);
+    --botao-color2e: white;
+
+    /* footer */
+    --ft-back: #0D7A47;
+    --text-footer: white;
+    --font-footer: lighter 1rem "Inter", sans-serif;
+}
