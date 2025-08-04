@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr Jomar Telecom</title>
-    <link rel="stylesheet" href="../style/páginas.css">
+    <link rel="stylesheet" href="../style/index.css">
 </head>
 
 <body>
@@ -28,15 +28,20 @@
             </section>
         </div>
     </header>
-    <h1 id="Planos">PLANOS</h1>
+    <h1 id="Planos" style="
+    display: flex;
+    justify-content: center;
+    font: var(--h1-font);
+    margin-block: 4.5rem;
+    color: var(--h1-color); text-transform: uppercase;">planos</h1>
     <main>
         <div class="plano-card">
-            <div class="plano-topo">
+            <div>
                 <h3>Plano 600 MEGA
                     <hr />
                 </h3>
             </div>
-            <ul class="plano-info">
+            <ul>
                 <li>
                     <span class="icon">%</span>
                     Desconto de Pontualidade<br>(R$25,00 de desconto)
@@ -46,18 +51,21 @@
                     Ideal para quem busca<br>conexão de qualidade e estabilidade.
                 </li>
             </ul>
-            <button class="plano-botao">
-                <img src="../Img/whatsapp 2.png" alt="WhatsApp" />
-                <p>Assinar agora!</p>
+            <button type="submit" class="bt">
+                <img src="../Img/whatsapp 2.png" alt="WhatsApp" class="bt"/>
+                <p
+                    href="https://wa.me/5592984214072?text=Gostaria%20de%20saber%20mais%20sobre%20o%20plano%20de%20600%20megas">
+                    Assinar
+                    agora!</p>
             </button>
         </div>
         <div class="plano-card">
-            <div class="plano-topo">
+            <div>
                 <h3>Plano 800 MEGA
                     <hr />
                 </h3>
             </div>
-            <ul class="plano-info">
+            <ul>
                 <li>
                     <span class="icon">%</span>
                     Desconto de Pontualidade<br>(R$25,00 de desconto)
@@ -71,39 +79,39 @@
                 <img src="../Img/musica.png" alt="TV Icon" class="icon">
                 <p>Acesso ao:</p>
             </section>
-            <section class="beneficios-img">
+            <section>
                 <img src="../Img/MRjomarTv.png">
             </section>
-            <button class="plano-botao">
-                <img src="../Img/whatsapp 2.png" alt="WhatsApp" />
+            <button type="submit" class="bt">
+                <img src="../Img/whatsapp 2.png" alt="WhatsApp" class="bt"/>
                 <p>Assinar agora!</p>
             </button>
         </div>
         <div class="plano-emp">
-            <div class="plano-topoemp">
+            <div>
                 <h3>Plano 1 GIGA
                     <hr />
                 </h3>
             </div>
-            <ul class="plano-infoemp">
+            <ul>
                 <li>
                     <span class="icon-emp">%</span>
                     Desconto de Pontualidade<br>(R$25,00 de desconto)
                 </li>
                 <li>
                     <span class="check">✔</span>
-                    Ultra velocidade + 1 Ponto Mesh (Satélite pk500) para alcance perfeito em toda casa.
+                    Ultra velocidade</br>1 Ponto wifi para alcance perfeito em toda casa.
                 </li>
             </ul>
-            <section class="beneficios-emp">
+            <section>
                 <img src="../Img/musica.png" alt="TV Icon" class="icon">
                 <p>Acesso ao:</p>
             </section>
             <section class="beneficios-empimg">
                 <img src="../Img/MRjomarTv.png">
             </section>
-            <button class="plano-botaoemp">
-                <img src="../Img/whatsapp 2.png" alt="WhatsApp" />
+            <button type="submit" class="plano-botaoemp bt">
+                <img src="../Img/whatsapp 2.png" alt="WhatsApp" class="bt"/>
                 <p>Assinar agora!</p>
             </button>
         </div>
@@ -120,7 +128,7 @@
                 </li>
                 <li>
                     <span class="check">✔</span>
-                    Ultra velocidade + 1 Ponto Mesh (Satélite pk500) para alcance perfeito em toda casa + prioridade no
+                    Ultra velocidade 1 Ponto WIFI para alcance perfeito em toda casa + prioridade no
                     atendimento, suporte 7 dias por semana.
                 </li>
             </ul>
@@ -132,13 +140,37 @@
                 <img src="../Img/MRjomarTv.png">
                 <img src="../Img/paramount.png">
             </section>
-            <button class="plano-botaoemp">
-                <img src="../Img/whatsapp 2.png" alt="WhatsApp" />
+            <button type="submit" class="plano-botaoemp">
+                <img src="../Img/whatsapp 2.png" alt="WhatsApp" class="bt"/>
                 <p>Assinar agora!</p>
             </button>
         </div>
     </main>
-        <img id="propaganda" src="../Img/prop.png" alt="Garanta já sua internet de qualidade com a MR Jomar Telecom!">
+    <div class="App">
+        <img src="../Img/celular.png" id="cell">
+        <section>
+            <h2>Já conhece nosso</h2>
+            <h1>Aplicativo?</h1>
+            <h3>Tudo que você precisa na palma da sua mão.</h3>
+            <ul>
+                <li>Baixe a 2º via do seu boleto a qualquer hora e em qualquer lugar.</li>
+                <li>Teste da velocidade da sua internet.</li>
+                <li>Temos um suporte técnico de profissionais capacitados para solucionar problemas com sua conexão e
+                    muito mais.</li>
+            </ul>
+            <div>
+                <button type="submit" id="play-store"><img src="../Img/play-store.png" class="bt">
+                    <p>Baixe agora na Google Play</p>
+                </button>
+                <button type="submit" id="app-store"><img src="../Img/apple.png" class="bt">
+                    <p>Baixe agora na App store</p>
+                </button>
+            </div>
+        </section>
+    </div>
+    <img src="../Img/prop.png" alt="Garanta já sua internet de qualidade com a MR Jomar Telecom!" style=" width: 100%;
+    height: auto;
+    margin: 0; object-fit: cover;">
     <footer>
         <div>
             <img src="../Img/logo_footer.png" alt="Logo MR Jomar Telecom">
@@ -160,7 +192,8 @@
             </section>
             <section>
                 <h4><b>Unidades em que atendemos:</b></h4>
-                <ul id="unidades">
+                <ul style="display: grid;
+    grid-template-columns: 9rem 1fr;">
                     <li>Parintins</li>
                     <li>Caburi</li>
                     <li>Mocambo</li>
@@ -170,10 +203,11 @@
                 </ul>
             </section>
         </div>
-        <section id="footer-text">
+        <section>
             <p>© 2023 MR JOMAR SERVIÇOS DE INTERNET LTDA - Brasil - Todos os direitos reservados</p>
         </section>
     </footer>
+    <script src="../logicas.js"></script>
 </body>
 
 </html>

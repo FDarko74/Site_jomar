@@ -1,0 +1,49 @@
+@import url(global.css);
+
+footer {
+    margin: 0;
+
+    div {
+        display: flex;
+        background: var(--ft-back);
+        justify-content: space-between;
+        padding: 6rem 7rem;
+    }
+
+    section {
+        color: var(--text-footer);
+        font: var(--font-footer);
+        text-decoration: none;
+    }
+
+    h4 {
+        font-weight: bolder;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: underline;
+        color: white;
+    }
+
+    img {
+        height: 6.75rem;
+        width: 11rem;
+        margin: 0;
+        padding: 0;
+    }
+    p {
+    text-align: center;
+    color: black;
+    font: bolder 1rem "Inter", sans-serif;
+    font-style: italic;
+    margin: 4rem;
+    }
+}

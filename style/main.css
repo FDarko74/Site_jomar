@@ -1,0 +1,46 @@
+@import url(global.css);
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 6rem 10rem;
+    margin: auto 10rem;
+
+    .check {
+        color: black;
+        font-weight: bolder;
+        font-size: 4.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .beneficios {
+        display: grid;
+        grid-template-columns: 1rem 7rem;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            display: flex;
+            gap: 2.5rem;
+            margin: 2rem 0;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .icon {
+        font-weight: bolder;
+        font-size: 4.5rem;
+        margin-right: 0.5rem;
+        color: var(--icon-color);
+    }
+
+    .icon-emp {
+        font-weight: bolder;
+        font-size: 4.5rem;
+        margin-right: 0.5rem;
+        color: var(--icon-colore);
+    }
+}

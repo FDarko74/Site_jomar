@@ -1,0 +1,82 @@
+    @import url(global.css);
+
+#App {
+    display: flex;
+    background-image: url(../Img/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5% auto 0 auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#App section {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 16rem;
+    color: white;
+}
+
+#App h1 {
+    font: var(--app-font);
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
+
+#App h2 {
+    font: var(--app-font2);
+    text-align: center;
+    margin: 0.1rem auto 0 auto;
+    border: 0.1rem solid var(--text-home);
+    border-radius: 50px;
+}
+
+#App h3 {
+    font: var(--app-font3);
+    text-align: justify;
+    padding-right: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+#App ul {
+    list-style-image: url(../Img/Group\ 8.svg);
+    margin-bottom: 1rem;
+}
+
+#App li {
+    font: var(--app-text);
+    text-align: justify;
+}
+#App div{
+    display: flex;
+    gap: 2rem;
+}
+#App button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    background: var(--botao-colore);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1.5);
+    color: var(--botao-color2e);
+    padding: 0.5rem 1.4rem;
+    border-radius: 3rem;
+    border: none;
+    font: bold 1.3rem var(--font-family);
+    text-align: justify;
+}
+
+#cell {
+    margin: 1rem 5rem 1rem 8rem;
+    width: 25rem;
+    height: 30rem;
+}
+
+#propaganda {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}

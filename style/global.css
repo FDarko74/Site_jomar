@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.bt {
+    width: 30px;
+    margin-right: 0.5rem;
+}
+
 :root {
     --font-family: "Inter", sans-serif;
 
@@ -19,7 +24,7 @@
     --font-h2: lighter 1.5rem "Inter", sans-serif;
 
     /* PLANOS */
-        /* residencial */
+    /* residencial */
     --background-pl: #EEEEEE;
     --background-h3: linear-gradient(99deg, #B34B06, #FF6A00);
     --font-h3: lighter 2.5rem "Inter", sans-serif;
@@ -28,7 +33,7 @@
     --botao-color: linear-gradient(99deg, #B34B06, #FF6A00);
     --botao-color2: white;
 
-        /* empresarial */
+    /* empresarial */
     --background-ple: #EEEEEE;
     --background-h3e: linear-gradient(99deg, #00E35B, #387852);
     --font-h3e: lighter 2.5rem "Inter", sans-serif;
@@ -41,4 +46,10 @@
     --ft-back: #0D7A47;
     --text-footer: white;
     --font-footer: lighter 1rem "Inter", sans-serif;
+
+    /* app */
+    --app-font: bolder 5rem/100% var(--font-family);
+    --app-font2: lighter 3.3rem/130% var(--font-family);
+    --app-font3: bold 1.8rem/120% var(--font-family);
+    --app-text: 1.2rem/150% var(--font-family)
 }
