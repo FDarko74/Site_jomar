@@ -12,7 +12,7 @@
     align-content: center;
 
 
-    #cell{
+    #cell {
         margin: 1rem 5rem 1rem 8rem;
         width: 25rem;
         height: 30rem;
@@ -76,6 +76,15 @@
         border: none;
         font: bold 1.3rem var(--font-family);
         text-align: justify;
+    }
+
+    button:hover {
+        background: #B34B06;
+        position: relative;
+        top: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        font-size: 20px;
+        transition: 0.5s;
     }
 
 }
