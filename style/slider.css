@@ -1,0 +1,94 @@
+@import url(global.css);
+
+h1 {
+    text-align: center;
+    margin: 1em 0;
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 75%;
+    margin: 2rem auto;
+}
+.slider-wrapper {
+    overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 1;
+}
+
+.arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.slider {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.item {
+    width: 50%;
+    height: 50%;
+    flex-shrink: 0;
+    opacity: 0.2;  
+}
+
+.current-item {
+    position: absolute;
+    width: fit-content;
+    height: 95%;
+    top: 0.5rem;
+    left: 15.71rem;
+    z-index: 1;
+    opacity: 1;
+    border: 5px solid transparent;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    transition: transitionS 250ms linear;
+}
+
+.slider-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-wrapper {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+@keyframes transitionS {
+    from{
+        left: 0;
+    }
+    to{
+        right: 0;
+    }
+}
