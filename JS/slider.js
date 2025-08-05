@@ -1,4 +1,3 @@
-
 const slider = document.querySelectorAll('.item');
 const btnPrev = document.getElementById('Prev');
 const btnNext = document.getElementById('Next');
@@ -34,7 +33,7 @@ function prevSlider() {
 }
 setInterval(() => {
   nextSlider(currentSlide + 1);
-}, 4000); // Altere 4000 para o tempo desejado (em ms)
+}, 8000); // Altere 4000 para o tempo desejado (em ms)
 
 btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
