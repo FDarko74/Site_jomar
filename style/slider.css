@@ -14,6 +14,7 @@ h1 {
 }
 .slider-wrapper {
     overflow-x: auto;
+    mask: linear-gradient(to right, transparent,white 15%, white 85%, transparent);    
 }
 
 .arrow-left,
@@ -58,9 +59,8 @@ h1 {
     width: 50%;
     height: 50%;
     flex-shrink: 0;
-    opacity: 0.2;
 }
-
+/* 
 .current-item {
     animation: transitionX 8s ease-in-out infinite;
     position: absolute;
@@ -73,7 +73,7 @@ h1 {
     border: 5px solid transparent;
     box-shadow: 0 0 10px black;
     border-radius: 10px;
-}
+} */
 
 .slider-wrapper::-webkit-scrollbar {
     display: none;
@@ -88,11 +88,6 @@ h1 {
 
 @keyframes transitionS {
     to{
-        translate: -50%;
-    }
-}
-@keyframes transitionX {
-    to{
-        translate: 150%;
+        translate: -516%;
     }
 }
