@@ -1,11 +1,13 @@
 @import url(global.css);
 
 .plano-card {
+    position: relative;
     background: var(--background-pl);
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font: var(--font-family);
     text-align: center;
+    width: 25%;
 
     h3 {
         background: var(--background-h3);
@@ -25,14 +27,15 @@
     ul {
         list-style: none;
         padding: 0;
-        margin: 1rem 0;
+        margin:
+            0.1rem 0;
         text-align: center;
         font: var(--font-pl);
 
         li {
             display: grid;
-            grid-template-columns: 3rem 20rem;
-            padding: 0.5rem 1rem;
+            grid-template-columns: 0.18fr 1fr;
+            margin-block: 1rem;
             justify-content: center;
             align-items: center;
 
@@ -54,10 +57,17 @@
 
         img {
             display: flex;
+            width: 5%;
             gap: 2.5rem;
             margin: 0.5rem 0;
             justify-content: center;
             align-items: center;
+        }
+    }
+    section:nth-of-type(2) {
+        img{
+            width: 30%;
+            margin: 0;
         }
     }
 
@@ -68,7 +78,7 @@
         top: 20px;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 90%;
         background: var(--botao-color);
         box-shadow: 0 4px 10px rgba(0, 0, 0, 1.5);
         color: var(--botao-color2);
@@ -85,21 +95,27 @@
         bottom: 2px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         font-size: 25px;
-        width: 65%;
+        width: 100%;
         transition: 0.5s;
     }
 }
 
 .plano-emp {
+    position: relative;
     background: var(--background-ple);
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: sans-serif;
     text-align: center;
+    width: 25%;
+    div:nth-of-type(3){
+        overflow: hidden;
+    }
 
     h3 {
         background: var(--background-h3e);
         color: white;
+        flex-wrap: nowrap;
         padding: 1rem;
         border-radius: 30px 30px 30px 0;
         margin: 0;
@@ -127,15 +143,26 @@
 
         li {
             display: grid;
-            grid-template-columns: 5rem 20rem;
-            padding-inline: 0.5rem;
+            grid-template-columns: 0.18fr 1fr;
+            /* padding-inline: 0.5rem; */
             align-items: center;
             align-content: center;
-
+            
             article {
-                margin-block: 0.5rem;
+                justify-content: start;
+                align-items: start;
+                align-content: start;
+                margin-block: 1rem;
                 display: flex;
                 flex-direction: column;
+
+                span {
+                    display: inline-flex;
+                    margin-right: 10px;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: center;
+                }
             }
         }
     }
@@ -152,9 +179,16 @@
         img {
             display: flex;
             gap: 2.5rem;
+            width: 5%;
             margin: 0.5rem 0;
             justify-content: center;
             align-items: center;
+        }
+    }
+    section:nth-of-type(2) {
+        img{
+            width: 30%;
+            margin: 0;
         }
     }
 
@@ -164,7 +198,7 @@
         top: 20px;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 90%;
         background: var(--botao-colore);
         box-shadow: 0 4px 10px rgba(0, 0, 0, 1.5);
         color: var(--botao-color2e);
@@ -181,7 +215,7 @@
         bottom: 2px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         font-size: 25px;
-        width: 65%;
+        width: 100%;
         transition: 0.5s;
     }
 }

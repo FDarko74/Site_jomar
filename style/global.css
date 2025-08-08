@@ -29,8 +29,8 @@
     /* residencial */
     --background-pl: #EEEEEE;
     --background-h3: linear-gradient(99deg, #B34B06, #FF6A00);
-    --font-h3: lighter 2.5rem "Inter", sans-serif;
-    --font-pl: lighter 1.35rem "Inter", sans-serif;
+    --font-h3: lighter 1.7rem "Inter", sans-serif;
+    --font-pl: lighter 1rem "Inter", sans-serif;
     --icon-color: #FF6A00;
     --botao-color: linear-gradient(99deg, #B34B06, #FF6A00);
     --botao-color2: white;
@@ -38,8 +38,8 @@
     /* empresarial */
     --background-ple: #EEEEEE;
     --background-h3e: linear-gradient(99deg, #00E35B, #387852);
-    --font-h3e: lighter 2.5rem "Inter", sans-serif;
-    --font-ple: lighter 1.25rem "Inter", sans-serif;
+    --font-h3e: lighter 1.7rem "Inter", sans-serif;
+    --font-ple: lighter 1rem "Inter", sans-serif;
     --icon-colore: #07E25B;
     --botao-colore: linear-gradient(99deg, #00E35B, #387852);
     --botao-color2e: white;

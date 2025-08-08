@@ -50,8 +50,8 @@ h1 {
 .slider {
     display: flex;
     flex-flow: row nowrap;
-    gap: 15px;  
-    animation: transitionS 10s linear infinite;
+    gap: 15px;
+    animation: transitionS 30s linear infinite;
 }
 
 .item {

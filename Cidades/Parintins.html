@@ -24,7 +24,6 @@
                 <h2>Conheça os plano de internet da:</h2>
                 <img src="../Img/logo.png">
                 <h1>Internet rápida, estável e cheia de benefícios esperando por você!</h1>
-                <p>Confira:</p>
             </section>
         </div>
     </header>
@@ -32,15 +31,11 @@
                 <div class="slider-wrapper">
                     <div class="slider">
                         <img src="/Img/carrosel/TGF_6262.jpg" alt="" class="item">
-                        <img src="/Img/carrosel/TGF_6299.jpg" alt="" class="item">
-                        <img src="/Img/carrosel/TGF_6311.jpg" alt="" class="item">
                         <img src="/Img/carrosel/TGF_6316.jpg" alt="" class="item">
-                        <img src="/Img/carrosel/TGF_6325.jpg" alt="" class="item ">
                         <img src="/Img/carrosel/TGF_6344.jpg" alt="" class="item ">
                         <img src="/Img/carrosel/TGF_6306.jpg" alt="" class="item ">
-                        <img src="/Img/carrosel/TGF_9728.jpg" alt="" class="item ">
-                        <img src="/Img/carrosel/TGF_9737.jpg" alt="" class="item ">
                         <img src="/Img/carrosel/TGF_9746.jpg" alt="" class="item">
+                        <img src="/Img/carrosel/TGF_6299.jpg" alt="" class="item">
                     </div>
                 </div>
                 
@@ -50,9 +45,30 @@
     display: flex;
     justify-content: center;
     font: var(--h1-font);
-    padding-block: 3rem;
+    padding-bottom: 1rem;
     color: var(--h1-color); text-transform: uppercase;">planos</h1>
+        <span style="position: relative;
+        z-index: 1;
+        top: 0.1rem;
+        left: 32rem;
+        text-transform: uppercase;
+        background-color: #FF6600;
+        color: white;
+        border-radius: 5px 5px 0 0;
+        padding: 0.1rem 0.5rem;
+        font-weight: bold;">mais vendido</span>
+        <span style="position: relative;
+        z-index: 1;
+        top: 0.1rem;
+        left: 56.5rem;
+        text-transform: uppercase;
+        background-color: #00ff66;
+        color: white;
+        border-radius: 5px 5px 0 0;
+        padding: 0.1rem 0.5rem;
+        font-weight: bold;">+Benefícios</span>
     <main>
+        
         <div class="plano-card">
             <div>
                 <h3>Plano 600 MEGA
@@ -66,11 +82,10 @@
                 </li>
                 <li>
                     <span class="check">✔</span>
-                    Ideal para quem busca<br>conexão de qualidade e estabilidade.
+                    <img src="../Img/wifi-6.png" class="wifi6">
                 </li>
             </ul>
             <section>
-                <img src="../Img/wifi-6.png">
             </section>
             <button type="submit" class="bt">
                 <img src="../Img/whatsapp 2.png" alt="WhatsApp" class="bt" />
@@ -93,13 +108,9 @@
                 </li>
                 <li>
                     <span class="check">✔</span>
-                    <article>
-                        <p>Internet veloz</p>
-                        <p>70 canais de entreterimento para toda família!</p>
-                    </article>
+                <img src="../Img/wifi-6.png" class="wifi6">                    
                 </li>
             </ul>
-            <img src="../Img/wifi-6.png">
             <section class="beneficios">
                 <img src="../Img/musica.png" alt="TV Icon" class="icon">
                 <p>Acesso ao:</p>
@@ -125,10 +136,12 @@
                 </li>
                 <li>
                     <span class="check">✔</span>
-                    Ultra velocidade</br>1 Ponto wifi para alcance perfeito em toda casa.
+                    <article>
+                       <p><span>•</span> 1 Ponto WI-FI adicional.</p>
+                    <img src="../Img/wifi-6.png" class="wifi6">
+                    </article>
                 </li>
             </ul>
-            <img src="../Img/wifi-6.png">
             <section>
                 <img src="../Img/musica.png" alt="TV Icon" class="icon">
                 <p>Acesso ao:</p>
@@ -143,7 +156,7 @@
         </div>
         <div class="plano-emp">
             <div>
-                <h3>Plano 1 GIGA <span>+ Benefícios</span>
+                <h3>Plano 1 GIGA
                     <hr />
                 </h3>
             </div>
@@ -155,13 +168,13 @@
                 <li>
                     <span class="check">✔</span>
                     <article>
-                        <p> Benefícios do plano de 1 GIGA </p>
-                        <p> Prioridade no atendimento </p>
-                        <p> Suporte 7 dias por semana</p>
+                        <p><span>•</span> 1 Ponto WI-FI adicional.</p>
+                        <p><span>•</span> Prioridade no atendimento </p>
+                        <p><span>•</span> Suporte 7/7 por semana</p>
+                        <img src="../Img/wifi-6.png" class="wifi6"></li>   
                     </article>
                 </li>
             </ul>
-            <img src="../Img/wifi-6.png">
             <section>
                 <img src="../Img/musica.png" alt="TV Icon" class="icon">
                 <p>Acesso ao:</p>
@@ -175,6 +188,8 @@
                 <p>Assinar agora!</p>
             </button>
         </div>
+        <!-- Adicionar os cards de CDN (META, Google, Netflix) 
+         Tirar como base o CDN da empresa-->
     </main>
     <div class="App">
         <img src="../Img/celular.png" id="cell">
