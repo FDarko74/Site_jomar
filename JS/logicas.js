@@ -2,6 +2,13 @@ const resButton = document.getElementById('plano-botao');
 const empButton = document.getElementById('plano-botaoemp');
 const playButton = document.getElementById('play-store');
 const appleButton = document.getElementById('app-store');
+const Nav = document.getElementById('tag');
+const ulMenu = document.getElementById('Menu');
+
+Nav.addEventListener('click', () => {
+  ulMenu.classList.toggle('active');
+});
+
 
 resButton.addEventListener('click', function () {
     window.open('https://wa.me/559284214072', '_blank');

@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr Jomar Telecom</title>
     <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#Home"><img src="../Img/logo_icone.png"></a>
-            <ul>
+            <img src="../Img/logo_icone.png">
+            <button id="tag"></button>
+            <ul id="Menu">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#Empresa">Empresa</a></li>
                 <li><a href="#Planos">Planos</a></li>
@@ -28,17 +30,17 @@
         </div>
     </header>
     <div class="container">
-                <div class="slider-wrapper">
-                    <div class="slider">
-                        <img src="/Img/carrosel/TGF_6262.jpg" alt="" class="item">
-                        <img src="/Img/carrosel/TGF_6316.jpg" alt="" class="item">
-                        <img src="/Img/carrosel/TGF_6344.jpg" alt="" class="item ">
-                        <img src="/Img/carrosel/TGF_6306.jpg" alt="" class="item ">
-                        <img src="/Img/carrosel/TGF_9746.jpg" alt="" class="item">
-                        <img src="/Img/carrosel/TGF_6299.jpg" alt="" class="item">
-                    </div>
-                </div>
-                
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="/Img/carrosel/TGF_6262.jpg" alt="" class="item">
+                <img src="/Img/carrosel/TGF_6316.jpg" alt="" class="item">
+                <img src="/Img/carrosel/TGF_6344.jpg" alt="" class="item ">
+                <img src="/Img/carrosel/TGF_6306.jpg" alt="" class="item ">
+                <img src="/Img/carrosel/TGF_9746.jpg" alt="" class="item">
+                <img src="/Img/carrosel/TGF_6299.jpg" alt="" class="item">
+            </div>
+        </div>
+
         <script src="/JS/slider.js" defer></script>
     </div>
     <h1 id="Planos" style="
@@ -47,28 +49,9 @@
     font: var(--h1-font);
     padding-bottom: 1rem;
     color: var(--h1-color); text-transform: uppercase;">planos</h1>
-        <span style="position: relative;
-        z-index: 1;
-        top: 0.1rem;
-        left: 32rem;
-        text-transform: uppercase;
-        background-color: #FF6600;
-        color: white;
-        border-radius: 5px 5px 0 0;
-        padding: 0.1rem 0.5rem;
-        font-weight: bold;">mais vendido</span>
-        <span style="position: relative;
-        z-index: 1;
-        top: 0.1rem;
-        left: 56.5rem;
-        text-transform: uppercase;
-        background-color: #00ff66;
-        color: white;
-        border-radius: 5px 5px 0 0;
-        padding: 0.1rem 0.5rem;
-        font-weight: bold;">+Benefícios</span>
+    
     <main>
-        
+
         <div class="plano-card">
             <div>
                 <h3>Plano 600 MEGA
@@ -108,7 +91,7 @@
                 </li>
                 <li>
                     <span class="check">✔</span>
-                <img src="../Img/wifi-6.png" class="wifi6">                    
+                    <img src="../Img/wifi-6.png" class="wifi6">
                 </li>
             </ul>
             <section class="beneficios">
@@ -137,8 +120,8 @@
                 <li>
                     <span class="check">✔</span>
                     <article>
-                       <p><span>•</span> 1 Ponto WI-FI adicional.</p>
-                    <img src="../Img/wifi-6.png" class="wifi6">
+                        <p><span>•</span> 1 Ponto WI-FI adicional.</p>
+                        <img src="../Img/wifi-6.png" class="wifi6">
                     </article>
                 </li>
             </ul>
@@ -171,8 +154,9 @@
                         <p><span>•</span> 1 Ponto WI-FI adicional.</p>
                         <p><span>•</span> Prioridade no atendimento </p>
                         <p><span>•</span> Suporte 7/7 por semana</p>
-                        <img src="../Img/wifi-6.png" class="wifi6"></li>   
-                    </article>
+                        <img src="../Img/wifi-6.png" class="wifi6">
+                </li>
+                </article>
                 </li>
             </ul>
             <section>
@@ -247,12 +231,12 @@
                     <li>Zé Açu</li>
                 </ul>
             </section>
-        </div>
+        </div> 
         <section>
             <p>© 2023 MR JOMAR SERVIÇOS DE INTERNET LTDA - Brasil - Todos os direitos reservados</p>
         </section>
     </footer>
-    <script src="../logicas.js"></script>
+    <script src="../JS/logicas.js"></script>
 </body>
 
 </html>

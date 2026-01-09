@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -54,4 +60,43 @@
     --app-font2: lighter 3.3rem/130% var(--font-family);
     --app-font3: bold 1.8rem/120% var(--font-family);
     --app-text: 1.2rem/150% var(--font-family)
+}
+
+@media (max-width: 768px){
+    
+    body{
+        width: 100vh;
+    }
+
+    .bt {
+    width: 30px;
+    margin-right: 0.5rem;
+    }
+    
+    :root {
+    /* NAVEGADO */
+    --h1-font: Bolder 60px/200% "Inter", sans-serif;
+
+    /* HOMEPAGE */
+    --font-h1: normal 2.37rem "Inter", sans-serif;
+    --font-h2: lighter 1.5rem "Inter", sans-serif;
+
+    /* PLANOS */
+    /* residencial */
+    --font-h3: lighter 1.7rem "Inter", sans-serif;
+    --font-pl: lighter 1rem "Inter", sans-serif;
+
+    /* empresarial */
+    --font-h3e: lighter 1.7rem "Inter", sans-serif;
+    --font-ple: lighter 1rem "Inter", sans-serif;
+
+    /* footer */
+    --font-footer: 1.2rem "Inter", sans-serif;
+
+    /* app */
+    --app-font: bolder 8rem/100% var(--font-family);
+    --app-font2: 4rem/130% var(--font-family);
+    --app-font3: bold 3rem/120% var(--font-family);
+    --app-text: italic 2rem/150% var(--font-family)
+}
 }
