@@ -91,3 +91,13 @@ h1 {
         translate: -516%;
     }
 }
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .item {
+        width: 80%;
+    }
+}

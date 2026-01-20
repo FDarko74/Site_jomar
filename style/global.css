@@ -35,8 +35,8 @@
     /* residencial */
     --background-pl: #EEEEEE;
     --background-h3: linear-gradient(99deg, #B34B06, #FF6A00);
-    --font-h3: lighter 1.7rem "Inter", sans-serif;
-    --font-pl: lighter 1rem "Inter", sans-serif;
+    --font-h3: bold 1.7rem "Inter", sans-serif;
+    --font-pl: normal 1rem "Inter", sans-serif;
     --icon-color: #FF6A00;
     --botao-color: linear-gradient(99deg, #B34B06, #FF6A00);
     --botao-color2: white;
@@ -44,8 +44,8 @@
     /* empresarial */
     --background-ple: #EEEEEE;
     --background-h3e: linear-gradient(99deg, #00E35B, #387852);
-    --font-h3e: lighter 1.7rem "Inter", sans-serif;
-    --font-ple: lighter 1rem "Inter", sans-serif;
+    --font-h3e: bold 1.7rem "Inter", sans-serif;
+    --font-ple: normal 1rem "Inter", sans-serif;
     --icon-colore: #07E25B;
     --botao-colore: linear-gradient(99deg, #00E35B, #387852);
     --botao-color2e: white;
@@ -62,15 +62,10 @@
     --app-text: 1.2rem/150% var(--font-family)
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     
     body{
-        width: 100vh;
-    }
-
-    .bt {
-    width: 30px;
-    margin-right: 0.5rem;
+        width: 100vw;
     }
     
     :root {
@@ -78,25 +73,25 @@
     --h1-font: Bolder 60px/200% "Inter", sans-serif;
 
     /* HOMEPAGE */
-    --font-h1: normal 2.37rem "Inter", sans-serif;
-    --font-h2: lighter 1.5rem "Inter", sans-serif;
+    --font-h1: normal 1.3rem "Inter", sans-serif;
+    --font-h2: lighter 1.2rem "Inter", sans-serif;
 
     /* PLANOS */
     /* residencial */
-    --font-h3: lighter 1.7rem "Inter", sans-serif;
-    --font-pl: lighter 1rem "Inter", sans-serif;
+    --font-h3: bolder 1.5rem "Inter", sans-serif;
+    --font-pl: normal 0.9rem "Inter", sans-serif;
 
     /* empresarial */
-    --font-h3e: lighter 1.7rem "Inter", sans-serif;
-    --font-ple: lighter 1rem "Inter", sans-serif;
+    --font-h3e: bolder 1.2rem "Inter", sans-serif;
+    --font-ple: normal 0.9rem "Inter", sans-serif;
 
     /* footer */
-    --font-footer: 1.2rem "Inter", sans-serif;
+    --font-footer: 0.9rem "Inter", sans-serif;
 
     /* app */
-    --app-font: bolder 8rem/100% var(--font-family);
-    --app-font2: 4rem/130% var(--font-family);
-    --app-font3: bold 3rem/120% var(--font-family);
-    --app-text: italic 2rem/150% var(--font-family)
+    --app-font: bolder 3.5rem/100% var(--font-family);
+    --app-font2: 1.5rem/130% var(--font-family);
+    --app-font3: bold 1.5rem/120% var(--font-family);
+    --app-text: italic 1rem/110% var(--font-family)
 }
 }

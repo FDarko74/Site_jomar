@@ -89,11 +89,8 @@
 }
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     .App {
-    margin: 0;
-    height: 100vh;
-
     #cell {
         display: none;
     }
@@ -112,25 +109,21 @@
     h3 {
         text-align: center;
     }
-
-    /* ul{
-        list-style: none;
-    } */
-
     li {
-        text-align: justify;
+        text-align: center;
     }
 
     div {
-        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
     }
 
     button {
-        width: 50%;
-        height: 25%;
-        padding: 0.5rem 1.4rem;
-        border-radius: 3rem;
-        font: bold 1.3rem var(--font-family);
+        text-align: center;
+        width: 100%;
+        padding: 0.1rem 1.5rem;
+        border-radius: 1.5rem;
+        font: bold 1.5rem var(--font-family);
     }
-    }
-}
+    }}

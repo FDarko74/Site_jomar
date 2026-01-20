@@ -7,7 +7,7 @@
         align-items: center;
         position: fixed;
         top: 0;
-        width: 100%;
+        width: 100vw;
         background-color: white;
         padding: 0.3rem 4.3rem;
         box-shadow: 0 4px 15px rgba(0,0,0,.2);
@@ -60,9 +60,9 @@
         }
     }
 
-    @media ((min-width: 320px) and (max-width: 1024px)) {
+    @media ((min-width: 320px) and (max-width: 600px)) {
         nav {
-            position: relative;
+            position: fixed;
             padding: 0.3rem 1.25rem;
 
             img {
@@ -85,6 +85,7 @@
 
             #Menu{
                 display: none;
+                animation: transitionMenu 0.5s forwards;
             }
             #Menu.active {
                 display: flex;
@@ -106,5 +107,16 @@
                 font-size: 1.5rem;
                 font-weight: bold;
             }
+        }
+    }
+
+    @keyframes transitionMenu {
+        from {
+            opacity: 0;
+            transform: translateY(0%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(4%);
         }
     }
