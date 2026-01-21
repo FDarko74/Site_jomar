@@ -1,0 +1,117 @@
+@import url(global.css);
+
+#CDN{
+    display: grid;
+    width: 100vw;
+    grid-template-areas: "Google Netflix" "Meta Globoplay";
+    gap: 5%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+
+    section{
+        background: linear-gradient(180deg, #00EB5E, #0D7A47);
+        border-radius: 38px;
+        width: 100%;
+        .back{
+            position: relative;
+            transform: translate(-1rem,-1.2rem);
+            border-radius: 38px;
+            width: 30vw;
+            height: 40vh;
+        }
+        .google{
+            background-image: url("../Img/cdnGoogle.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .Netflix{
+            background-image: url("../Img/cdnNetflix.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .Meta{
+            background-image: url("../Img/cdnMeta.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .Globoplay{
+            background-image: url("../Img/cdnGloboplay.png");
+            background-size: cover;
+            background-position: center;
+        }
+        h3{
+            color: white;
+            font: bold 1.7rem "Inter", sans-serif;
+            margin-top: 1rem;
+            transform: translate(1rem,9.5rem);
+        }
+        hr{
+            border: none;
+            border-top: 5px solid white;
+            margin: 0.5rem 0;
+            width: 60%;
+            transform: translate(1rem,9.1rem);
+        }
+        .logo{
+            margin: auto;
+            width: 25%;
+            transform: translate(1rem,9rem);
+        }
+    }
+
+
+    section:nth-child(1){
+        grid-area: Google;
+    }
+    section:nth-child(2){
+        grid-area: Netflix;
+    }
+    section:nth-child(3){
+        grid-area: Meta;
+    }
+    section:nth-child(4){
+        grid-area: Globoplay;
+    }
+
+
+}
+@media (max-width: 600px){
+    #CDN{
+    display: flex;
+    flex-direction: column;
+    section{
+        background: linear-gradient(180deg, #00EB5E, #0D7A47);
+        border-radius: 38px;
+        width: 100%;
+        .back{
+            position: relative;
+            transform: translate(-1rem,-1.2rem);
+            border-radius: 38px;
+            width: 90vw;
+            height: 40vh;
+            margin: 0 0 5% 4%;
+        }
+        h3{
+            color: white;
+            font: bold 1.2rem "Inter", sans-serif;
+            margin-top: 1rem;
+            transform: translate(1rem,8.5rem);
+        }
+        hr{
+            border: none;
+            border-top: 5px solid white;
+            margin: 0.5rem 0;
+            width: 60%;
+            transform: translate(1rem,8.2rem);
+        }
+        .logo{
+            margin: auto;
+            width: 25%;
+            transform: translate(1rem,8rem);
+        }
+    }
+    }
+}
