@@ -1,5 +1,7 @@
-const resButton = document.getElementById('plano-botao');
-const empButton = document.getElementById('plano-botaoemp');
+const resButton1 = document.getElementById('600mb');
+const resButton2 = document.getElementById('800mb');
+const empButton1 = document.getElementById('1Gb');
+const empButton2 = document.getElementById('1Gbplus');
 const playButton = document.getElementById('play-store');
 const appleButton = document.getElementById('app-store');
 const Nav = document.getElementById('tag');
@@ -10,12 +12,20 @@ Nav.addEventListener('click', () => {
 });
 
 
-resButton.addEventListener('click', function () {
+resButton1.addEventListener('click', function () {
     window.open('https://wa.me/559284214072', '_blank');
 });
-empButton.addEventListener('click', function () {
+resButton2.addEventListener('click', function () {
     window.open('https://wa.me/559284214072', '_blank');
 });
+empButton1.addEventListener('click', function () {
+    window.open('https://wa.me/559284214072', '_blank');
+});
+empButton2.addEventListener('click', function () {
+    window.open('https://wa.me/559284214072', '_blank');
+});
+
+
 playButton.addEventListener('click', function () {
     window.open('https://play.google.com/store/apps/details?id=br.com.topsapp.topcliente.tcmrjomar', '_blank');
 });

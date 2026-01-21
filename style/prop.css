@@ -65,7 +65,7 @@
         justify-content: center;
         align-items: center;
         align-content: center;
-        width: 50%;
+        width: 60%;
         height: 25%;
         background: var(--botao-colore);
         box-shadow: 0 4px 10px rgba(0, 0, 0, 1.5);
@@ -73,7 +73,7 @@
         padding: 0.5rem 1.4rem;
         border-radius: 3rem;
         border: none;
-        font: bold 1.3rem var(--font-family);
+        font: bold 1.1rem var(--font-family);
         text-align: justify;
     }
 
