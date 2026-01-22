@@ -34,6 +34,10 @@ body{
     --font-h1: normal 2.37rem "Inter", sans-serif;
     --font-h2: lighter 1.5rem "Inter", sans-serif;
 
+    /* TAG */
+    --background-tag: linear-gradient(99deg, #B34B06, #FF6A00);
+    --font-tag: bold 0.8rem "Inter", sans-serif;
+
     /* PLANOS */
     /* residencial */
     --background-pl: #EEEEEE;

@@ -6,6 +6,7 @@ const playButton = document.getElementById('play-store');
 const appleButton = document.getElementById('app-store');
 const Nav = document.getElementById('tag');
 const ulMenu = document.getElementById('Menu');
+const Sup = document.getElementById('Sup');
 
 Nav.addEventListener('click', () => {
   ulMenu.classList.toggle('active');
@@ -22,6 +23,9 @@ empButton1.addEventListener('click', function () {
     window.open('https://wa.me/559284214072', '_blank');
 });
 empButton2.addEventListener('click', function () {
+    window.open('https://wa.me/559284214072', '_blank');
+});
+Sup.addEventListener('click', function () {
     window.open('https://wa.me/559284214072', '_blank');
 });
 

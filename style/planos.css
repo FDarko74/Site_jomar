@@ -7,6 +7,11 @@ main {
     gap: 1rem;
     margin: 4rem 4%;
     flex-wrap: wrap;
+
+    &:has(.plano-card:only-child){
+        display: flex;
+        justify-content: center;
+    }
 }
 .plano-card {
     position: relative;
@@ -58,6 +63,17 @@ main {
                 display: flex;
                 flex-direction: column;
             }
+        }
+    }
+    &:has(#tag){
+        #tag{
+            position: absolute;
+            background:var(--background-tag);
+            font: var(--font-tag);
+            color: white;
+            padding: 1% 10px;
+            border-radius: 50% 50% 0 0;
+            transform: translate(140%,-100%);
         }
     }
 
@@ -288,6 +304,11 @@ main {
     button {
         padding: 0.5rem 1rem;
     }
+
+    &:has(#tag){
+        #tag{
+        transform: translate(45vw,-100%);
+    }}
 }
 
     .plano-emp {
@@ -340,7 +361,7 @@ main {
     }
     section:nth-of-type(2) {
         img{
-            width: 30%;
+            width: 20%;
             margin: 0;
         }
     }

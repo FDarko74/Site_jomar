@@ -21,6 +21,10 @@
     margin-right: 4.38rem;
 }
 
+#mobile{
+    display: none;
+}
+
 #Welcome h1 {
     font-family: "Inter", sans-serif;
     font-size: xx-large;
@@ -50,15 +54,57 @@
   background-size: 12px;
   
   border: 2px solid #ccc;
-  border-radius: 30px;
+  border-radius: 30px 30px 0 0;
+  border-bottom: none;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.966);
   margin-top: 1rem;
   padding: 0.6rem 12.5rem 0.6rem 0.9rem;
   font-size: 14px;
   color: #333;
   cursor: pointer;
+  appearance: none;
+  outline: none;
 }
 
 #pagina{
     outline: none;
     box-shadow: 0 0 0 2px #ffb366;
+}
+
+@media(max-width: 600px){
+    #Welcome{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../Img/Retângulo\ 7\ 1.jpg);
+    img{
+        display: none;
+    }
+    #mobile{
+        display: block;
+        position: absolute;
+        width: 75%;
+        height: 25%;
+        left: 14%;
+    }
+    div{
+        position: relative;
+        margin: 0;
+    }
+    h1{
+        font-size: x-large;
+        justify-self: center;
+    }
+    p{
+        justify-items: center;
+        text-justify: center;
+        padding-inline: 10%;
+    }
+    #paginas{
+        background-size: contain;
+        padding: 0.6rem 5rem;
+        margin-inline-start: 5%;
+    }
+}
 }
